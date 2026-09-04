@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "vercel-build": "npx vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
