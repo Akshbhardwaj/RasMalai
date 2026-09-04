@@ -6,12 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "vercel-build": "npx vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
-  "allowScripts": {
-    "esbuild": true
+  "overrides": {
+    "esbuild": "$esbuild"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
